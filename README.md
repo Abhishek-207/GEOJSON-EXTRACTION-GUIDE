@@ -58,6 +58,18 @@ Any tool that can export valid GeoJSON is acceptable. Recommended options:
 
 Regardless of tool, the final deliverable must be a **single `.geojson` or `.json` file** conforming to the structure below.
 
+### Testing & Previewing Your GeoJSON
+
+Before delivering, always preview your GeoJSON on a map to visually verify correctness:
+
+| Tool | URL | What It Does |
+|------|-----|--------------|
+| **GeoJSON Loader** | [geojson-loader.netlify.app](https://geojson-loader.netlify.app/) | Load a `.geojson` file directly or paste raw GeoJSON to instantly see it rendered on a map. Use this to verify shapes, positions, and coordinate accuracy before delivery. |
+| **geojson.io** | [geojson.io](https://geojson.io/) | Draw, edit, and preview GeoJSON interactively on a satellite map. Also useful for quick validation. |
+
+**Recommended workflow:**  
+After exporting from QGIS or any other tool → open [GeoJSON Loader](https://geojson-loader.netlify.app/) → drag-and-drop your file or paste the raw JSON → confirm all polygons, points, and lines appear at the correct locations on the map.
+
 ---
 
 ## File Format & Top-Level Structure
